@@ -14,7 +14,7 @@ body {
 
 .container {
   max-width: 600px;
-  magin: 0 auto;
+  margin: 0 auto;
   padding: 30px;
   background-color: #fff;
   border-radius: 8px;
@@ -53,7 +53,7 @@ input {
   transition: border-color 0.3s;
 }
 
-input: focus {
+input:focus {
   outline: none;
   border-color: #3182ce;
   box-shadow: 0 0 0 2px rgba(49, 130, 206,0.2);
@@ -117,11 +117,12 @@ button:active {
 }
 
 /* Media queries */
-@media(max-width: 480px) {
+
+@media (max-width: 480px) {
   .container {
-    padding:20px
+    padding:20px;
   }
-}
+
 
 input, button {
   padding:10px;
@@ -132,4 +133,5 @@ input, button {
   position:static;
   transform:none;
   margin-top:4px;
+}
 }
